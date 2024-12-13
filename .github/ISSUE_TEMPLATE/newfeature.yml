@@ -1,6 +1,6 @@
 name: NewFeature
 description: File a new feature.
-title: "New Feature: "
+title: "Feature: "
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
