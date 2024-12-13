@@ -27,7 +27,7 @@ body:
         - New Feature 2
       default: 0
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: operatingsystems
     attributes:
