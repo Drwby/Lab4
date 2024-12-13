@@ -1,0 +1,46 @@
+ name: NewFeature
+description: File a new feature.
+title: "Feature: "
+body:
+  
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: request
+    attributes:
+      label: Type of request?
+      description: Select the type of your request
+      options:
+        - New Feature
+        - New Feature 2
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: operatingsystems
+    attributes:
+      label: What is the OS which you want to suggest?
+      multiple: true
+      options:
+        - Windows
+        - Linux
+        - MacOS
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What are the details of your sugguestion?
+      description: Explain what do you want
+      placeholder: Tell us what you want!
+      value: "Feature details!"
+      render: shell
+  
