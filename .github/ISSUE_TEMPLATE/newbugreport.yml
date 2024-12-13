@@ -1,5 +1,4 @@
----
-  name: NewBugReport
+name: NewBugReport
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
@@ -64,6 +63,5 @@ body:
         - label: I agree to follow this project's Code of Conduct
           required: true  
 
----
 
 
