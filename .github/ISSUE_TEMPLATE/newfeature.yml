@@ -2,7 +2,6 @@
 description: File a new feature.
 title: "Feature: "
 body:
-  
   - type: input
     id: contact
     attributes:
